@@ -1,0 +1,26 @@
+/* .nav {
+    display: flex;
+    justify-content: space-around;
+} */
+
+.nav a{
+    text-decoration: none;
+}
+
+.sub-menu {
+    display:none;
+}
+
+.menu-item:hover .sub-menu {
+    display:block;
+}
+
+.menu-item {
+    position: relative;
+}
+
+.sub-menu {
+    /* display: none; */
+    position:absolute;
+
+}
